@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+   font-family: 'Kumbh Sans', sans-serif; 
+}
+
+.line {
+    background: hsl(223, 64%, 98%);
+    height: 2px;
+    margin-top: 25px;
+}
+
+.title {
+    font-size: 300%;
+    font-weight: bolder;
+    line-height: 55px;
+}
+
+.desc {
+    color: hsl(219, 9%, 45%);
+    letter-spacing: 0.8px;
+}
+
+.sneaker {
+    color: hsl(26, 100%, 55%);
+}
+
+.discount {
+    color: hsl(26, 100%, 55%);
+    background: hsl(25, 100%, 94%);
+}
+
+.spinbox {
+    background: hsl(223, 64%, 98%);
+}
+
+.spinbox img:hover {
+    opacity: 0.5;
+}
+
+.cartbox {
+    background: hsl(26, 100%, 55%);
+    color: white;
+    border-radius: 6px;
+    border: 1px solid hsl(26, 100%, 55%);
+    box-shadow: 0 1.2rem 3rem hsl(26, 100%, 55%);
+}
+
+.cartbox:hover {
+    opacity: 0.5;
+}
